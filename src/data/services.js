@@ -1,8 +1,8 @@
 export const services = [
   {
-    slug: 'paper-writing',
-    title: 'Paper Writing',
-    subtitle: 'SCI, SCOPUS, IEEE',
+    slug: 'anna-university-publications',
+    title: 'SCI/ SCOPUS Journal Publications',
+    subtitle: 'Scholar / Guide ship support',
     summary:
       'High-quality manuscript writing and journal-aligned formatting for top-tier research publications.',
     highlights: [
@@ -29,24 +29,10 @@ export const services = [
     details:
       'Our team ensures that every academic submission is logically organized, academically sound, and aligned with university expectations.'
   },
-  {
-    slug: 'anna-university-publications',
-    title: 'Anna University Publications',
-    subtitle: 'Scholar / Guide ship support',
-    summary:
-      'Specialized documentation and publication support tailored for Anna University academic requirements.',
-    highlights: [
-      'Scholarship and guidance support documents',
-      'Publication-ready academic paperwork',
-      'Institution-specific formatting assistance',
-      'End-to-end guidance for submissions'
-    ],
-    details:
-      'We help researchers align publications, reports, and supporting documents with Anna University requirements and academic standards.'
-  },
+
   {
     slug: 'patent',
-    title: 'Patent Support',
+    title: 'Patent Grant Support',
     subtitle: 'Design, Innovative, UK, Australia',
     summary:
       'Professional assistance for drafting, documentation, and filing of patent applications.',
@@ -58,21 +44,6 @@ export const services = [
     ],
     details:
       'We guide inventors through the patent documentation process with clear technical writing and application preparation support.'
-  },
-  {
-    slug: 'book-chapter',
-    title: 'Book Chapter',
-    subtitle: 'Academic and professional writing',
-    summary:
-      'Expert assistance for writing book chapters for academic publishers and edited volumes.',
-    highlights: [
-      'Chapter structure and content planning',
-      'Publisher-style academic writing',
-      'Technical review and editing',
-      'Reference and citation formatting'
-    ],
-    details:
-      'From conceptualization to final chapter submission, we help authors create polished and publication-ready content.'
   },
   {
     slug: 'book-publication',
@@ -91,7 +62,7 @@ export const services = [
   },
   {
     slug: 'coauthor',
-    title: 'Co-Author Support',
+    title: 'Authors Support',
     subtitle: 'Scopus, SCI, IEEE, Book, Patent',
     summary:
       'Collaborative research writing and co-authorship support for journals, books, and patents.',
@@ -103,20 +74,5 @@ export const services = [
     ],
     details:
       'We help researchers coordinate written contributions, improve quality, and prepare collaboration-ready materials.'
-  },
-  {
-    slug: 'journal-publication',
-    title: 'Journal Publication',
-    subtitle: 'Scopus, SCI',
-    summary:
-      'Support for preparing, revising, and submitting manuscripts to high-impact journals.',
-    highlights: [
-      'Scopus and SCI journal targeting',
-      'Submission-ready manuscript preparation',
-      'Revision and response letter support',
-      'Publication strategy and journal selection'
-    ],
-    details:
-      'We help authors improve visibility, strengthen scientific communication, and increase chances of successful publication.'
   }
 ]
