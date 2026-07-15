@@ -2,7 +2,7 @@ export const services = [
   {
     slug: 'anna-university-publications',
     title: 'SCI/ SCOPUS Journal Publications',
-    subtitle: 'Scholar / Guide ship support',
+    subtitle: 'Scholar / Guideship support',
     summary:
       'High-quality manuscript writing and journal-aligned formatting for top-tier research publications.',
     highlights: [
