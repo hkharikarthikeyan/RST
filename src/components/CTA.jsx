@@ -10,7 +10,7 @@ export default function CTA() {
         </p>
         <a 
           className="btn btn-primary" 
-          href="https://wa.me/919876543210" 
+          href="https://wa.me/919363857986" 
           target="_blank"
           rel="noopener noreferrer"
         >

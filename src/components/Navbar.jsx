@@ -19,6 +19,9 @@ export default function Navbar({ onNavigate }) {
           <button className="nav-link-button" onClick={() => onNavigate('services')}>
             Services
           </button>
+          <button className="nav-link-button" onClick={() => onNavigate('contact')}>
+            Contact
+          </button>
         </nav>
       </div>
     </header>

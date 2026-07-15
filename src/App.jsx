@@ -7,9 +7,11 @@ import Process from './components/Process'
 import Support from './components/Support'
 import CTA from './components/CTA'
 import WhatsAppButton from './components/WhatsAppButton'
+import Footer from './components/Footer'
 import ServicePage from './components/ServicePage'
 import AboutPage from './components/AboutPage'
 import AllServicesPage from './components/AllServicesPage'
+import ContactPage from './components/ContactPage'
 
 export default function App() {
   const [theme, setTheme] = useState('light')
@@ -43,10 +45,13 @@ export default function App() {
           <AboutPage onBack={() => setView('home')} />
         ) : view === 'services' ? (
           <AllServicesPage onSelect={setView} onBack={() => setView('home')} />
+        ) : view === 'contact' ? (
+          <ContactPage onBack={() => setView('home')} />
         ) : (
           <ServicePage slug={view} onBack={() => setView('home')} />
         )}
       </main>
+      <Footer onNavigate={setView} />
       <WhatsAppButton />
     </div>
   )
