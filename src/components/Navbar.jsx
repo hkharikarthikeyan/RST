@@ -1,9 +1,6 @@
 import { useState } from 'react'
-import { services } from '../data/services'
 
 export default function Navbar({ onNavigate }) {
-  const [open, setOpen] = useState(false)
-
   return (
     <header className="topbar">
       <div className="container nav-wrap">
@@ -16,29 +13,12 @@ export default function Navbar({ onNavigate }) {
           <button className="nav-link-button" onClick={() => onNavigate('home')}>
             Home
           </button>
-
-          <div className="dropdown">
-            <button className="nav-link-button" onClick={() => setOpen((prev) => !prev)}>
-              Services <i className="fa-solid fa-chevron-down"></i>
-            </button>
-
-            {open && (
-              <div className="dropdown-menu">
-                {services.map((service) => (
-                  <button
-                    key={service.slug}
-                    className="dropdown-item"
-                    onClick={() => {
-                      onNavigate(service.slug)
-                      setOpen(false)
-                    }}
-                  >
-                    {service.title}
-                  </button>
-                ))}
-              </div>
-            )}
-          </div>
+          <button className="nav-link-button" onClick={() => onNavigate('about')}>
+            About
+          </button>
+          <button className="nav-link-button" onClick={() => onNavigate('services')}>
+            Services
+          </button>
         </nav>
       </div>
     </header>

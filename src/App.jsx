@@ -8,6 +8,8 @@ import Support from './components/Support'
 import CTA from './components/CTA'
 import WhatsAppButton from './components/WhatsAppButton'
 import ServicePage from './components/ServicePage'
+import AboutPage from './components/AboutPage'
+import AllServicesPage from './components/AllServicesPage'
 
 export default function App() {
   const [theme, setTheme] = useState('light')
@@ -37,6 +39,10 @@ export default function App() {
             <Support />
             <CTA />
           </>
+        ) : view === 'about' ? (
+          <AboutPage onBack={() => setView('home')} />
+        ) : view === 'services' ? (
+          <AllServicesPage onSelect={setView} onBack={() => setView('home')} />
         ) : (
           <ServicePage slug={view} onBack={() => setView('home')} />
         )}
