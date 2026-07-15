@@ -9,7 +9,7 @@ export default function Navbar({ onNavigate }) {
       <div className="container nav-wrap">
         <a className="brand" href="#" onClick={(e) => { e.preventDefault(); onNavigate('home') }}>
           <img src="/logo.jpeg" alt="IDEA2Research logo" className="brand-logo" />
-          <span>IDEA2Research</span>
+          <span>IDEA<span className="gradient-number">2</span><span className="gradient-research">Research</span></span>
         </a>
 
         <nav className="nav-links" aria-label="Main navigation">

@@ -87,7 +87,21 @@ button {
   object-fit: cover;
   border-radius: 50%;
 }
+.gradient-number {
+  background: linear-gradient(135deg, #FF8C00 0%, #FFD700 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 800;
+}
 
+.gradient-research {
+  background: linear-gradient(135deg, #073A59 0%, #2976A6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 800;
+}
 .nav-links {
   display: flex;
   gap: 1rem;
