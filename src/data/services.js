@@ -1,5 +1,20 @@
 export const services = [
   {
+    slug: 'phd-guide-support',
+    title: 'PhD Guide & Support',
+    subtitle: 'End-to-end doctoral research assistance',
+    summary:
+      'Comprehensive guidance for PhD scholars from topic selection to thesis submission and defense.',
+    highlights: [
+      'Research topic identification and gap analysis',
+      'Chapter-wise writing and review support',
+      'Statistical analysis and result interpretation',
+      'Viva and defense preparation'
+    ],
+    details:
+      'We provide dedicated support to PhD scholars at every stage of their doctoral journey, ensuring academic rigor and timely completion.'
+  },
+  {
     slug: 'anna-university-publications',
     title: 'SCI/ SCOPUS Journal Publications',
     subtitle: 'Scholar / Guideship support',
